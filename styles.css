@@ -114,7 +114,10 @@ h1 {
 }
 .mailbox-img {
   display: inline-block;
-  float: right;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .notify-form {
